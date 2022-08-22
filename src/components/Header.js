@@ -5,12 +5,12 @@ import styles from "../assets/styles/components/Header.module.scss";
 const Header = () => {
   return (
     <header className={`${styles.header} d-flex flex-row align-items-center`}>
-      <div>
+      <div className="flex-fill">
         <img src={logo} alt="cookchef logo" />
       </div>
-      <ul>
-        <button>Withlist</button>
-        <button>Connexion</button>
+      <ul className={styles.headerList}>
+        <button className="mr-5 btn btn-reverse-primary">Withlist</button>
+        <button className="mr-5 btn btn-primary">Connexion</button>
       </ul>
     </header>
   );
