@@ -1,11 +1,8 @@
-import './assets/styles/App.scss';
+import "./assets/styles/App.scss";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Cookchef</h1>
-    </div>
-  );
+  return <Header />
 }
 
 export default App;
